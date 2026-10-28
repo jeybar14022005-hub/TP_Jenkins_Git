@@ -1,0 +1,11 @@
+Contenu à coller dans Jenkins (job TP_Jenkins_Git > Build Steps > Execute Windows batch command).
+Ce sont les commandes du TP2, telles que données par le prof :
+
+echo === Étape 1 : Vérification du dépôt ===
+git status
+echo === Étape 2 : Afficher le contenu du projet ===
+dir
+echo === Étape 3 : Simuler un déploiement local ===
+echo Le fichier index.html est prêt à être affiché
+echo === Étape 4 : Fin du build ===
+echo SUCCESS
